@@ -52,6 +52,32 @@
       ]
     },
     {
+      "tag": "college",
+      "patterns": [
+        "tell me about college",
+        "tell me about sjce",
+        "tell me about jssstu",
+        "tell me about jssstuniv",
+        "tell me about jssstuniversity",
+        "tell me about jssstuniversity mysuru"
+      ],
+      "responses": [
+        "JSS Science and Technology University (JSSSTU) is a private university located in Mysuru, Karnataka, India. It was established in 1963 as SJCE by Sri Jayachamarajendra College of Engineering and became an autonomous institute in 2007. In 2018, SJCE was declared as a private university by the Government of Karnataka under the JSS Science and Technology University Act, 2018. The university is recognized by the University Grants Commission (UGC) and approved by the All India Council for Technical Education (AICTE)."
+      ]
+    },
+    {
+      "tag": "projectGuide",
+      "patterns": [
+        "who is your project guide",
+        "who is your guide",
+        "who is your mentor",
+        "who is your project mentor",
+        "who is your project supervisor",
+        "who is your supervisor"
+      ],
+      "responses": ["Rakshitha R is our Project Guide and Mentor"]
+    },
+    {
       "tag": "csHOD",
       "patterns": [
         "who is the HOD of computer science department",
@@ -955,6 +981,288 @@
         "To prevent any form of ragging, the campus has instituted an anti-ragging committee and anti-ragging squads, which include the Principal, Vice principal, senior professors, administrative staff, Warden, resident wardens, assistant wardens, and the Student Welfare Officer (SWO). This comprehensive approach ensures the safety of freshmen in both college premises and hostels.",
         "The college has implemented a robust system against ragging, featuring an anti-ragging committee and anti-ragging squads. Comprising key members such as the Principal, Vice principal, senior professors, administrative staff, Warden, resident wardens, assistant wardens, and the Student Welfare Officer (SWO), these measures are designed to prevent any harassment of newcomers within the college premises or hostels.",
         "To address the issue of ragging, the campus has established an anti-ragging committee and anti-ragging squads. These include the Principal, Vice principal, senior professors, administrative staff, Warden, resident wardens, assistant wardens, and the Student Welfare Officer (SWO). The purpose is to ensure that newcomers are not subjected to any form of harassment, be it within the college premises or hostels."
+      ]
+    },
+    {
+      "tag": "pbmContact",
+      "patterns": [
+        "How can I Contact PBM Sir?",
+        "Give me PBM Sir Phone Number",
+        "What is the contact number of PBM Sir",
+        "How can I contact PBM Sir",
+        "How can I contact Parashivamurthy Sir",
+        "Phone number of Parashivamurthy Sir"
+      ],
+      "responses": ["+919742903742"]
+    },
+    {
+      "tag": "sbmContact",
+      "patterns": [
+        "How can I Contact SBM Ma'am?",
+        "Give me SBM Ma'am Phone Number",
+        "What is the Phone number of SBM",
+        "How can I contact SBM Ma'am",
+        "How can I contact Shruthi BM Ma'am",
+        "Phone number of Shruthi BM"
+      ],
+      "responses": ["+917795581319"]
+    },
+    {
+      "tag": "rrContact",
+      "patterns": [
+        "How can I Contact Rakshitha Ma'am?",
+        "Give me Rakshitha Ma'am Phone Number",
+        "What is the contact number of Rakshitha Ma'am",
+        "Phone number of Rakshitha Ma'am"
+      ],
+      "responses": ["+919743007435"]
+    },
+    {
+      "tag": "spmContact",
+      "patterns": [
+        "How can I Contact SPM Ma'am?",
+        "Give me Swetha PM Ma'am Phone Number",
+        "What is the contact number of SPM Ma'am",
+        "How can I contact Swetha PM Ma'am",
+        "How can I contact Swetha Ma'am",
+        "Phone number of Setha Ma'am"
+      ],
+      "responses": ["+919448181850"]
+    },
+    {
+      "tag": "adsContact",
+      "patterns": [
+        "How can I Contact ADS Ma'am?",
+        "Give me Aishwarya Ma'am Phone Number",
+        "What is the contact number of ADS Ma'am",
+        "How can I contact Aishwarya Ma'am",
+        "How can I contact ADS Ma'am",
+        "Phone number of Aishwarya Ma'am"
+      ],
+      "responses": ["+919972922830"]
+    },
+    {
+      "tag": "csPlacement",
+      "patterns": [
+        "What is the number of students in CSE branch who got placed?",
+        "How many students got placed in CSE branch?",
+        "How many students got placed in Computer Science and Engineering branch?",
+        "What is the number of students in Computer Science and Engineering branch who got placed?"
+      ],
+      "responses": [
+        "A total of 177 students from CSE branch got placed.",
+        "177 Students from Computer Science and Engineering branch got placed."
+      ]
+    },
+    {
+      "tag": "ecePlacement",
+      "patterns": [
+        "What is the number of students in ECE branch who got placed?",
+        "How many students got placed in ECE branch?",
+        "How many students got placed in Electronics and Communication Engineering branch?",
+        "What is the number of students in Electronics and Communication Engineering branch who got placed?"
+      ],
+      "responses": [
+        "A total of 163 students from ECE branch got placed.",
+        "163 Students from Electronics and Communication Engineering branch got placed."
+      ]
+    },
+    {
+      "tag": "isePlacement",
+      "patterns": [
+        "What is the number of students in ISE branch who got placed?",
+        "How many students got placed in ISE branch?",
+        "How many students got placed in Information Science and Engineering branch?",
+        "What is the number of students in Information Science and Engineering branch who got placed?"
+      ],
+      "responses": [
+        "A total of 73 students from ISE branch got placed.",
+        "73 Students from Information Science and Engineering branch got placed."
+      ]
+    },
+    {
+      "tag": "mechPlacement",
+      "patterns": [
+        "What is the number of students in ME branch who got placed?",
+        "How many students got placed in ME branch?",
+        "How many students got placed in Mechanical Engineering branch?",
+        "What is the number of students in Mechanical Engineering branch who got placed?"
+      ],
+      "responses": [
+        "A total of 66 students from ME branch got placed.",
+        "66 Students from Mechanical Engineering branch got placed."
+      ]
+    },
+    {
+      "tag": "civilPlacement",
+      "patterns": [
+        "What is the number of students in CV branch who got placed?",
+        "How many students got placed in CV branch?",
+        "How many students got placed in Civil Engineering branch?",
+        "What is the number of students in Civil Engineering branch who got placed?"
+      ],
+      "responses": [
+        "A total of 30 students from CV branch got placed.",
+        "30 Students from Civil Engineering branch got placed."
+      ]
+    },
+    {
+      "tag": "eeePlacement",
+      "patterns": [
+        "What is the number of students in EEE branch who got placed?",
+        "How many students got placed in EEE branch?",
+        "How many students got placed in Electrical and Electronics Engineering branch?",
+        "What is the number of students in Electrical and Electronics Engineering branch who got placed?"
+      ],
+      "responses": [
+        "A total of 70 students from EEE branch got placed.",
+        "70 Students from Electrical and Electronics Engineering branch got placed."
+      ]
+    },
+    {
+      "tag": "eiPlacement",
+      "patterns": [
+        "What is the number of students in EI branch who got placed?",
+        "How many students got placed in EI branch?",
+        "How many students got placed in Electronics and Instrumentation Engineering branch?",
+        "What is the number of students in Electronics and Instrumentation Engineering branch who got placed?"
+      ],
+      "responses": ["No Data Available"]
+    },
+    {
+      "tag": "ipPlacement",
+      "patterns": [
+        "What is the number of students in IP branch who got placed?",
+        "How many students got placed in IP branch?",
+        "How many students got placed in Industrial and Production Engineering branch?",
+        "What is the number of students in Industrial and Production Engineering branch who got placed?"
+      ],
+      "responses": [
+        "A total of 31 students from IP branch got placed.",
+        "31 Students from Industrial Production branch got placed."
+      ]
+    },
+    {
+      "tag": "noClubs",
+      "patterns": [
+        "How Many Clubs are present in the College?",
+        "Number of Clubs in College",
+        "How many clubs are there in the college?"
+      ],
+      "responses": ["There are 19 clubs in the college"]
+    },
+    {
+      "tag": "topRecruiters",
+      "patterns": [
+        "Which are the top recruiters of the college?",
+        "Can you list the top recruiters of the college?",
+        "What are the names of the top recruiters of the college?",
+        "Could you provide information about the top recruiters of the college?"
+      ],
+      "responses": [
+        "The top recruiters of the college are Amazon, Microsoft, Cisco, Adobe, Delloite, Seimens and Goldman Sachs."
+      ]
+    },
+    {
+      "tag": "jayciana2023",
+      "patterns": [
+        "Highlights of Jayciana 2023",
+        "About Jayciana 2023",
+        "What is Jayciana 2023",
+        "What is the theme of Jayciana 2023"
+      ],
+      "responses": [
+        "Jayciana 2023 is the annual techno-cultural fest of SJCE. The Cheif Guests of the event in 2023 were Daali Dhananjay, Dhanveer, Ananya Bhat, Abhilash Dalapathi, Yashas Surya, Asees Kaur, and many more."
+      ]
+    },
+    {
+      "tag": "cshighestPackage",
+      "patterns": [
+        "What is the highest package offered in CSE branch?",
+        "What is the highest package offered in Computer Science and Engineering branch?",
+        "What is the highest package offered in Computer Science branch?",
+        "What is the highest package offered in Computer Science and Engineering branch?"
+      ],
+      "responses": ["The highest package offered in CSE branch is 44 LPA."]
+    },
+    {
+      "tag": "ecehighestPackage",
+      "patterns": [
+        "What is the highest package offered in ECE branch?",
+        "What is the highest package offered in Electronics and Communication Engineering branch?",
+        "What is the highest package offered in Electronics and Communication branch?",
+        "What is the highest package offered in ECE branch?"
+      ],
+      "responses": ["The highest package offered in ECE branch is 22 LPA."]
+    },
+    {
+      "tag": "isHighestPackage",
+      "patterns": [
+        "What is the highest package offered in ISE branch?",
+        "What is the highest package offered in Information Science and Engineering branch?",
+        "What is the highest package offered in Information Science branch?",
+        "What is the highest package offered in ISE branch?"
+      ],
+      "responses": ["The highest package offered in ISE branch is 20 LPA."]
+    },
+    {
+      "tag": "mechHighestPackage",
+      "patterns": [
+        "What is the highest package offered in ME branch?",
+        "What is the highest package offered in Mechanical Engineering branch?",
+        "What is the highest package offered in Mechanical branch?",
+        "What is the highest package offered in ME branch?"
+      ],
+      "responses": ["The highest package offered in ME branch is 11 LPA."]
+    },
+    {
+      "tag": "civilHighestPackage",
+      "patterns": [
+        "What is the highest package offered in CV branch?",
+        "What is the highest package offered in Civil Engineering branch?",
+        "What is the highest package offered in Civil branch?",
+        "What is the highest package offered in CV branch?"
+      ],
+      "responses": ["The highest package offered in CV branch is 6 LPA."]
+    },
+    {
+      "tag": "eeehighestPackage",
+      "patterns": [
+        "What is the highest package offered in EEE branch?",
+        "What is the highest package offered in Electrical and Electronics Engineering branch?",
+        "What is the highest package offered in Electrical and Electronics branch?",
+        "What is the highest package offered in EEE branch?"
+      ],
+      "responses": ["The highest package offered in EEE branch is 20 LPA."]
+    },
+    {
+      "tag": "eihighestPackage",
+      "patterns": [
+        "What is the highest package offered in EI branch?",
+        "What is the highest package offered in Electronics and Instrumentation Engineering branch?",
+        "What is the highest package offered in Electronics and Instrumentation branch?",
+        "What is the highest package offered in EI branch?"
+      ],
+      "responses": ["The highest package offered in EI branch is 10 LPA."]
+    },
+    {
+      "tag": "iphighestPackage",
+      "patterns": [
+        "What is the highest package offered in IP branch?",
+        "What is the highest package offered in Industrial and Production Engineering branch?",
+        "What is the highest package offered in Industrial and Production branch?",
+        "What is the highest package offered in IP branch?"
+      ],
+      "responses": ["The highest package offered in IP branch is 9 LPA."]
+    },
+    {
+      "tag": "upcomingEvents",
+      "patterns": [
+        "What are the upcoming events in the college?",
+        "What are the upcoming events?"
+      ],
+      "responses": [
+        "Stay Tuned to our social media handles and College Website for more updates on upcoming events."
       ]
     }
   ]
