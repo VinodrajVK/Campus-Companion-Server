@@ -1,0 +1,961 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "Greetings",
+        "what's up?",
+        "how is it going?"
+      ],
+      "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {
+      "tag": "invalid",
+      "patterns": ["", "hsfdjshsh", "adacdva"],
+      "responses": [
+        "Sorry, I didn't get you",
+        "Please try again",
+        "I didn't understand"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "name",
+        "what's your name",
+        "who are you",
+        "what should I call you"
+      ],
+      "responses": [
+        "You can call me VAJRAS",
+        "I'm VAJRAS",
+        "I'm VAJRAS your virtual assistant"
+      ]
+    },
+    {
+      "tag": "developer",
+      "patterns": [
+        "who is your developer",
+        "who developed you",
+        "who is your creator",
+        "who created you",
+        "who is your father",
+        "who is your mother"
+      ],
+      "responses": [
+        "VAJRAS - Virtual Assistant for JSSSTU is developed by Vinodraj, Aditya, Janapriya, sudharshan Reddy And Satwik"
+      ]
+    },
+    {
+      "tag": "csHOD",
+      "patterns": [
+        "who is the HOD of computer science department",
+        "who is the HOD of CS department",
+        "Who is the CS HOD",
+        "Name of CS HOD",
+        "who is the HOD of computer science"
+      ],
+      "responses": [
+        "HOD of CS dept is Dr. Srinath.S",
+        "The Name of CS HOD is Dr. Srinath.S",
+        "The Head of The Department of CS in JSSSTU is Dr. Srinath.S"
+      ]
+    },
+
+    {
+      "tag": "principal",
+      "patterns": [
+        "Who is our College Principal",
+        "What is the name of the college principal",
+        "Who is the principal of SJCE",
+        "Who is the principal of JSSSTU"
+      ],
+      "responses": [
+        "Our College Principal is C. Nataraju",
+        "The college principal's name is C. Nataraju",
+        "C. Nataraju is the principal of SJCE",
+        "C. Nataraju is the principal of JSSSTU"
+      ]
+    },
+
+    {
+      "tag": "Location",
+      "patterns": [
+        "location",
+        "where is it located",
+        "what is the location of the college"
+      ],
+      "responses": [
+        "Manasagangotri Layout,Mysuru",
+        "College is located in University of Mysore Campus,Manasagangotri,Mysuru"
+      ]
+    },
+
+    {
+      "tag": "website",
+      "patterns": [
+        "website",
+        "what is the website of the college",
+        "Give me the college Website",
+        "website of the college"
+      ],
+      "responses": ["https://jssstuniv.in/#/"]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact",
+        "what is the contact number of JSSSTU",
+        "what is the contact number of the college",
+        "what is the contact number of SJCE",
+        "Give contact number of JSSSTU",
+        "give contact number of SJCE"
+      ],
+      "responses": [
+        "The contact number of SJCE,JSSSTU is 0821-2548285",
+        "0821-2548285 is the contact number of SJCE,JSSSTU",
+        "The contact number of JSSSTU is 0821-2548286"
+      ]
+    },
+
+    {
+      "tag": "email",
+      "patterns": [
+        "email",
+        "what is the email of the college",
+        "what is the email of JSSSTU",
+        "what is the email of SJCE",
+        "Give email of JSSSTU",
+        "give email of SJCE"
+      ],
+      "responses": [
+        "The email of SJCE,JSSSTU is enquire@jssstuniv.in",
+        "enquire@jssstuinv.in is the email of SJCE,JSSSTU"
+      ]
+    },
+    {
+      "tag": "semestersBE",
+      "patterns": [
+        "How many number of semesters in BE",
+        "number of semesters in BE",
+        "what is number of semesters in BE",
+        "How many semesters are there in engineering in Bachelor of Engineering"
+      ],
+      "responses": [
+        "There are 8 Semesters in engineering in BE",
+        "BE Course has 8 semesters"
+      ]
+    },
+    {
+      "tag": "numCircuitBranches",
+      "patterns": [
+        "How many branches are there in circuit branch",
+        "number of branches in circuit branch",
+        "what is number of branches in circuit branch",
+        "How many branches are there in circuit branch"
+      ],
+      "responses": [
+        "There are 6 branches in circuit branch",
+        "Circuit branch has 6 branches"
+      ]
+    },
+    {
+      "tag": "numNonCircuitBranches",
+      "patterns": [
+        "How many branches are there in non circuit branch",
+        "number of branches in non circuit branch",
+        "what is number of branches in non circuit branch",
+        "How many branches are there in non circuit branch"
+      ],
+      "responses": [
+        "There are 7 branches in non circuit branch",
+        "Non Circuit branch has 7 branches"
+      ]
+    },
+    {
+      "tag": "ISHOD",
+      "patterns": [
+        "Who is the hod of ise dept",
+        "What is the name of the ise hod",
+        "who is the head of department of ise in jssstu",
+        "Name the head of department in ise branch",
+        "who is the hod of ise in jssstu "
+      ],
+      "responses": [
+        "Dr. B S Mahanand is the HOD of ISE dept",
+        "Dr. B S Mahanand is the Head Of Department of ISE in JSSSTU"
+      ]
+    },
+    {
+      "tag": "BECredits",
+      "patterns": [
+        "How many credits are there in BE",
+        "number of credits in BE",
+        "what is number of credits in BE",
+        "How many credits are there in BE"
+      ],
+      "responses": ["There are 175 credits in BE", "BE Course has 175 credits"]
+    },
+    {
+      "tag": "aidedCETCode",
+      "patterns": [
+        "What is the cet code of aided qouta in jssstu",
+        "cet code of aided qouta",
+        "what is cet code of aided qouta in your college",
+        "give the cet code of aided qouta in your college"
+      ],
+      "responses": [
+        "The CET code of aided qouta in JSSSTU is E021",
+        "E021 is the cet code of aided qouta in JSSSTU"
+      ]
+    },
+    {
+      "tag": "unaidedCETCode",
+      "patterns": [
+        "What is the cet code of unaided qouta in jssstu",
+        "cet code of unaided qouta",
+        "what is cet code of unaided qouta in your college",
+        "give the cet code of unaided qouta in your college"
+      ],
+      "responses": [
+        "The CET code of unaided qouta in JSSSTU is E057 and E284",
+        "E057 and E284 is the cet code of unaided qouta in JSSSTU"
+      ]
+    },
+    {
+      "tag": "numCSFaculty",
+      "patterns": [
+        "How many faculty are there in CS department",
+        "number of faculty in CS department",
+        "what is number of faculty in CS department",
+        "How many faculty are there in CS department",
+        "Number of faculty handling the cse dept in jss college ",
+        "what is the number of faculty in computer science branch",
+        "How many faculty members are handling the cse department ",
+        "what is the number of faculty in cse dapartment in sjce"
+      ],
+      "responses": [
+        "There are 32 faculty in CS department",
+        "CS department has 32 faculty",
+        "Number of faculty working the CS Department in our college is 32",
+        "The number of faculty in Computer science branch is 32"
+      ]
+    },
+    {
+      "tag": "numCSIntake",
+      "patterns": [
+        "What is the intake of CSE branch in JSSSTU college mysuru",
+        "What is the intake of CSE branch in SJCE mysuru",
+        "number of intake of cse in jss engineering 2023",
+        "what is the total number of intake of students in cse branch in jssstu"
+      ],
+      "responses": [
+        "The intake of CSE branch in our college is 300",
+        "The intake of CSE branch in SJCE Mysuru is 300",
+        "300 is the intake of CSE in JSSSTU 2023"
+      ]
+    },
+    {
+      "tag": "IIRFrank",
+      "patterns": [
+        "What is the IIRF 2023 rank of sjce mysuru in state level",
+        "number the rank of sjce mysuru as per IIRF 2023 in state level",
+        "which rank does sjce mysuru hold as per IIRF 2023 in state level",
+        "what is the number of rank of jssstu in state level as per IIRF 2023"
+      ],
+      "responses": [
+        "The IIRF 2023 Ranking of SJCE Mysuru at State level is 5th",
+        "Fifth rank as per IIRF 2023 at State level"
+      ]
+    },
+    {
+      "tag": "collegeRegistrar",
+      "patterns": [
+        "who is the registrar of jssstu",
+        "who is the registrar of sjce mysuru",
+        "who is the registrar of jss engineering college mysuru",
+        "who is the registrar of jss college of engineering mysuru"
+      ],
+      "responses": [
+        "Our College registrar is Dr.S.A.Dhanaraj",
+        "The college registrar's name is Dr.S.A.Dhanaraj",
+        "Dr.S.A.Dhanaraj is the registrar of JSSSTU"
+      ]
+    },
+    {
+      "tag": "collegeChancellor",
+      "patterns": [
+        "who is the chancellor of jssstu",
+        "who is the chancellor of sjce mysuru",
+        "who is the chancellor of jss engineering college mysuru",
+        "who is the chancellor of jss college of engineering mysuru",
+        "Who is our College chancellor",
+        "What is the name of the college chancellor",
+        "Who is the  chancellor of SJCE",
+        "Who is the chancellor of JSSSTU"
+      ],
+      "responses": [
+        "Our College chancellor is Sri Shivaratri Deshikendra Swamiji",
+        "The college chancellor's name is Sri Shivaratri Deshikendra Swamiji",
+        "Sri Shivaratri Deshikendra Swamiji is the chancellor of JSSSTU"
+      ]
+    },
+    {
+      "tag": "collegearea",
+      "patterns": [
+        "what is the area of the college",
+        "what is the area of jssstu",
+        "what is the area of sjce mysuru",
+        "what is the area of jss engineering college mysuru",
+        "what is the area of jss college of engineering mysuru",
+        "what is the area of jss engineering college in mysuru",
+        "the area of jssstu of mysuru",
+        "what is the area of sjce mysuru",
+        "name the number of acres of area of sjce mysuru"
+      ],
+      "responses": [
+        "The area of SJCE Mysuru is 102 acres",
+        "Our University is spread over 102 acres of land"
+      ]
+    },
+    {
+      "tag": "founder",
+      "patterns": [
+        "who is the founder of jssstu",
+        "who is the founder of jss engineering college mysuru",
+        "who is the founder of jss college of engineering mysuru",
+        "who is the founder of JSS",
+        "name the founder of JSS",
+        "what is the name of founder of JSS"
+      ],
+      "responses": [
+        "Sri Sri Sri Dr. Shivarathri Rajendra Mahaswamiji is the founder of JSS"
+      ]
+    },
+    {
+      "tag": "Ecell",
+      "patterns": [
+        "What is the overall atmosphere and support for student startups on campus?",
+        "How prevalent is entrepreneurial spirit among SJCE students?",
+        "Does SJCE offer any resources or programs specifically targeted towards fostering startup initiatives?",
+        "Are there any existing successful student startups launched through SJCE that exemplify the campus's startup culture?"
+      ],
+      "responses": [
+        "SJCE boasts a vibrant and supportive startup culture! SJCE-STEP serves as a hub for aspiring entrepreneurs, providing guidance, resources, and opportunities to nurture their ideas.",
+        "The entrepreneurial spirit is very much alive at SJCE! Many students embrace innovation and actively pursue their business ventures. The campus buzzes with creative energy and a drive to make a difference.",
+        "Yes, SJCE actively encourages and empowers student startups through dedicated programs like SJCE-STEP. They offer workshops, mentorship, funding opportunities, and access to incubation facilities, equipping students with the tools they need to turn their dreams into reality.",
+        "SJCE takes pride in its legacy of successful student startups. You'll find inspiring stories of alumni who launched thriving businesses while at SJCE, proving that the campus fosters and celebrates entrepreneurial success."
+      ]
+    },
+    {
+      "tag": "eateries",
+      "patterns": [
+        "What are the eateries present in the campus?",
+        "Are there any options for different dietary preferences?",
+        "Can I find healthy and affordable meals on campus?",
+        "Are there any late-night food options available?"
+      ],
+      "responses": [
+        "SJCE offers a variety of on-campus eateries dedicated to delicious vegetarian dishes. Popular options include Yampa, known for its authentic South Indian flavors, and Lara's Cafe, serving up a range of creative vegetarian sandwiches, salads, and wraps. You'll also find healthy snacks and drinks at vending machines located throughout campus.",
+        "Absolutely! SJCE understands the diverse needs of its students and caters to various dietary preferences. Yampa and other eateries offer vegan-friendly options, while most places can accommodate allergies or other restrictions with prior notice. Don't hesitate to ask!",
+        "SJCE prioritizes student well-being and offers healthy, budget-friendly vegetarian meals. The canteen provides daily lunch and dinner menus featuring nutritious dishes like vegetable curries, dal, and salads. You can also grab healthy snacks and smoothies at Lara's Cafe.",
+        "No worries about late-night hunger pangs! The vending machines across campus are stocked with snacks and drinks to satisfy your cravings. Additionally, some eateries, like Yampa, may offer extended hours during peak study times."
+      ]
+    },
+    {
+      "tag": "stationaries",
+      "patterns": [
+        "What are the stationary as well as printing and xerox facilities in the campus?",
+        "Are the printing and xerox shops equipped for color printing?",
+        "What are the operating hours of these facilities?",
+        "Are there any online ordering or printing options available?"
+      ],
+      "responses": [
+        "SJCE caters to your academic needs with a convenient stationary shop and three strategically located printing and xerox shops. These facilities offer a wide range of supplies, from notebooks and pens to printing and binding services, ensuring you have everything you need to ace your studies.",
+        "Definitely! The printing and xerox shops are equipped with modern technology, allowing you to print and copy in both black and white and vibrant colors. Need high-quality project prints? They've got you covered!",
+        "To ensure accessibility, the stationary shop and at least one printing and xerox shop remain open throughout the day, including weekends. The other two shops have extended hours during weekdays to fulfill your last-minute academic needs. Specific timings are conveniently displayed at each location.",
+        "Some printing and xerox shops might offer online ordering and printing services for your convenience. Check with the individual shops for their specific services and options. You can also find self-service printing kiosks in certain locations, allowing you to quickly print documents directly from your laptop or phone."
+      ]
+    },
+    {
+      "tag": "sportFacilities",
+      "patterns": [
+        "What are some sport facilities in the campus?",
+        "What kinds of sports facilities can be found within the campus premises?",
+        "Enumerate the sports facilities available on the campus.",
+        "Could you list the various sports facilities present on the campus?"
+      ],
+      "responses": [
+        "SJCE boasts an impressive range of sports facilities, catering to diverse interests and fitness levels. From outdoor options like the expansive Football ground and Cricket field to indoor spaces like the well-equipped Tennis court and Badminton courts, you'll find the perfect environment to stay active and fit!",
+        "Within the campus, you'll find diverse sports facilities such as a tennis court, badminton, Kho-Kho, volleyball court, kabbadi, basketball court, football ground, gym, cricket field, table tennis, and handball field.",
+        "On the campus, there are numerous sports facilities, including a tennis court, badminton, Kho-Kho, volleyball court, kabbadi, basketball court, football ground, gym, cricket field, table tennis, and handball field.",
+        "Among the sports facilities on the campus are a tennis court, badminton, Kho-Kho, volleyball court, kabbadi, basketball court, football ground, gym, cricket field, table tennis, and handball field."
+      ]
+    },
+    {
+      "tag": "rubberInstitute",
+      "patterns": [
+        "How is Indian Rubber Institute (IRI) linked to SJCE?",
+        "What is the connection between SJCE and the Indian Rubber Institute (IRI)?",
+        "How does SJCE collaborate with the Indian Rubber Institute (IRI)?",
+        "In what capacity is SJCE associated with the Indian Rubber Institute (IRI)?"
+      ],
+      "responses": [
+        "SJCE and IRI share a strong collaborative bond formalized through a Memorandum of Understanding (MoU). This partnership unlocks a wealth of benefits for SJCE students, including:<br/> - Exposure to cutting-edge research in sports material development, biomechanics, and training methodologies.<br/> - Joint research projects with IRI researchers.<br/> - Exclusive internship opportunities at IRI.<br/> - Guest lectures and workshops by renowned IRI experts.",
+        "SJCE and IRI have entered into a Memorandum of Understanding (MoU).",
+        "SJCE has established a partnership with IRI through a Memorandum of Understanding.",
+        "SJCE and IRI are interconnected through a formal Memorandum of Understanding."
+      ]
+    },
+    {
+      "tag": "spiritualCentre",
+      "patterns": [
+        "Is there a designated area for spiritual activities within the college premises?",
+        "Could you provide information about any space within the college dedicated to spiritual practices?",
+        "Is there a place within the college where students can engage in spiritual activities?",
+        "Does the college provide a facility for spiritual purposes, and if so, where is it situated?"
+      ],
+      "responses": [
+        "Indeed, there is a well-established prayer hall located behind the Ganesha Temple, serving as a space for prayer and meditation for individuals of all religious beliefs.",
+        "Certainly, there is a well-established prayer hall situated behind the Ganesha Temple, designed for prayer and meditation activities catering to individuals of all religious backgrounds.",
+        "Yes, a fully-equipped prayer hall, located behind the Ganesha Temple, offers a dedicated space for prayer and meditation, welcoming individuals from all religious affiliations.",
+        "Absolutely, there is a dedicated prayer hall situated behind the Ganesha Temple, providing a serene space for prayer and meditation that is open to individuals of all religious beliefs."
+      ]
+    },
+    {
+      "tag": "mathsCompulsory",
+      "patterns": [
+        "During which semesters is mathematics a required subject in the curriculum?",
+        "In how many semesters is mathematics included as a subject in the academic program?",
+        "Up to which semester does the curriculum include mathematics as a mandatory subject?",
+        "Till which sem one needs to ztudy mathematics as a subject?"
+      ],
+      "responses": [
+        "Mathematics is a mandatory subject up to the fourth semester.",
+        "Mathematics is part of the curriculum until the completion of the fourth semester.",
+        "Mathematics is a compulsory subject up to the fourth semester.",
+        "Mathematics needs to be studied till 4th semester."
+      ]
+    },
+    {
+      "tag": "csLocation",
+      "patterns": [
+        "Where can the Computer Science and Engineering (CSE) branch be found on the campus?",
+        "What is the specific location of the Computer Science and Engineering (CSE) branch?",
+        "Could you provide information about the whereabouts of the Computer Science and Engineering (CSE) branch?",
+        "Where on the campus premises can one locate the Computer Science and Engineering (CSE) branch?"
+      ],
+      "responses": [
+        "The Computer Science and Engineering (CSE) branch is located in Golden Jubilee Bhavan on the ground floor and the first floor.",
+        "The Computer Science and Engineering (CSE) branch is situated in Golden Jubilee Bhavan, spanning the ground floor and the first floor.",
+        "The Computer Science and Engineering (CSE) branch is positioned in Golden Jubilee Bhavan, covering both the ground floor and the first floor.",
+        "The Computer Science and Engineering (CSE) branch is situated in Golden Jubilee Bhavan, occupying both the ground floor and the first floor."
+      ]
+    },
+    {
+      "tag": "cricketGround",
+      "patterns": [
+        "Where can the cricket ground be found on the campus?",
+        "What is the specific location of the cricket ground on the campus?",
+        "Could you provide information about the whereabouts of the cricket ground?",
+        "Where on the campus premises can one locate the cricket ground?"
+      ],
+      "responses": [
+        "The cricket ground is situated near the Indian Rubber Institute at the KSCA cricket ground.",
+        "The KSCA cricket ground is located near the Indian Rubber Institute.",
+        "The cricket ground is positioned near the Indian Rubber Institute at the KSCA cricket ground.",
+        "The KSCA cricket ground, used for cricket activities, is situated near the Indian Rubber Institute."
+      ]
+    },
+    {
+      "tag": "bankingFacilities",
+      "patterns": [
+        "What banking facilities are available within the college campus?",
+        "Can you provide information about the banking services on the campus?",
+        "Where can one access banking services within the campus?",
+        "What banking options are available on the college campus?"
+      ],
+      "responses": [
+        "Andhra Bank operates a branch within the college campus, catering to the banking needs of both students and faculty members. Additionally, there are two Automatic Teller Machine (ATM) machines installed within the campus.",
+        "The college campus features an Andhra Bank branch, offering banking services to students and faculty members. Furthermore, two Automatic Teller Machine (ATM) machines are available on the campus.",
+        "A branch of Andhra Bank is present within the college campus, providing banking services for students and faculty members. Additionally, there are two Automatic Teller Machine (ATM) machines located on the premises.",
+        "The college campus is equipped with an Andhra Bank branch to meet the banking needs of students and faculty. Moreover, there are two Automatic Teller Machine (ATM) machines installed within the campus."
+      ]
+    },
+    {
+      "tag": "yogaFacilities",
+      "patterns": [
+        "Are there yoga facilities available in the college?",
+        "Could you provide information about yoga facilities on the college campus?",
+        "Is there a provision for yoga at the college?",
+        "What are the yoga options for students and faculty within the college?"
+      ],
+      "responses": [
+        "Yoga classes are conducted for both faculty and students at the Yoga Education Center in collaboration with Pathanjali Yoga Kendra. Two yoga instructors are present to guide the students and faculty members.",
+        "Yes, there are yoga facilities on the college campus. Yoga classes are organized for faculty and students at the Yoga Education Center, in collaboration with Pathanjali Yoga Kendra. The classes are conducted under the guidance of two yoga instructors.",
+        "Yes, the college provides yoga facilities. Yoga classes take place at the Yoga Education Center in collaboration with Pathanjali Yoga Kendra, with two dedicated yoga instructors guiding both faculty and students.",
+        "Certainly, the college offers yoga facilities. Yoga classes are held at the Yoga Education Center in collaboration with Pathanjali Yoga Kendra, catering to both faculty and students. The classes are led by two experienced yoga instructors."
+      ]
+    },
+    {
+      "tag": "saahas",
+      "patterns": [
+        "Is there a club specifically for adventure activities at the college?",
+        "Could you tell me if there's a club dedicated to adventure sports on campus?",
+        "Is there a specific club for students interested in adventure activities?",
+        "What options are available for students interested in adventure sports?"
+      ],
+      "responses": [
+        "Yes, there is an adventure club called SAHAS. This club was initiated to provide the youth of SJCE with opportunities to participate in and enjoy adventure sports. SAHAS encourages students to push their boundaries and embrace challenges. The club's mission is not only to build strong individuals but also to raise awareness about nature and its importance and beauty.",
+        "Certainly, there is an adventure club named SAHAS at the college. This club was established to enable SJCE's youth to partake in and relish adventure sports. SAHAS strives to motivate students to step out of their comfort zones and embrace challenges, fostering not only strength but also an appreciation for the beauty and significance of nature.",
+        "Yes, there is an adventure club known as SAHAS. The club was created to offer the youth of SJCE the chance to engage in and enjoy various adventure sports. SAHAS is committed to inspiring students to face challenges beyond their comfort zones and, in the process, build resilience. Additionally, the club seeks to enhance students' awareness of the importance and beauty of nature.",
+        "SJCE has an adventure club called SAHAS, designed for students who enjoy adventure sports. The club's purpose is to encourage youth to participate in challenging activities that go beyond their comfort zones. SAHAS not only focuses on building individual strength but also on promoting awareness of nature's importance and beauty among students."
+      ]
+    },
+    {
+      "tag": "techClubs",
+      "patterns": [
+        "Which technical clubs are present in the college?",
+        "Can you list some of the technical clubs available in the college?",
+        "What are the names of the technical clubs in the college?",
+        "Could you provide information about the technical clubs within the college?"
+      ],
+      "responses": [
+        "The college hosts several technical clubs, including IEEE - SJCE Student Chapter, Linux Campus Club, CSI-SJCE Student Chapter, Sparsh Talks, TESLA, and the Mechanical Engineers' Association.",
+        "Among the technical clubs in the college are IEEE - SJCE Student Chapter, Linux Campus Club, CSI-SJCE Student Chapter, Sparsh Talks, TESLA, and the Mechanical Engineers' Association.",
+        "Technical clubs in the college include IEEE - SJCE Student Chapter, Linux Campus Club, CSI-SJCE Student Chapter, Sparsh Talks, TESLA, and the Mechanical Engineers' Association.",
+        "Several technical clubs are active in the college, such as IEEE - SJCE Student Chapter, Linux Campus Club, CSI-SJCE Student Chapter, Sparsh Talks, TESLA, and the Mechanical Engineers' Association."
+      ]
+    },
+    {
+      "tag": "edBoard",
+      "patterns": [
+        "What is the literature club of the college?",
+        "Which organization is responsible for literary activities in the college?",
+        "Can you name the literary club of the college?",
+        "What organization is in charge of literary events on campus?"
+      ],
+      "responses": [
+        "The Editorial Board serves as the literature club of the college. They are responsible for producing the annual college magazine Jayzine and organizing the annual literary fest || shabd ||. The Board comprises members from various departments, selected through a rigorous and unique recruitment process. Additionally, they conduct various debates and discussions on campus.",
+        "The Editorial Board functions as the literature club of the college. Their duties include publishing the annual college magazine Jayzine, hosting the annual literary fest || shabd ||, and organizing debates and discussions on campus. Members are selected from different departments through a rigorous recruitment process.",
+        "The Editorial Board serves as the literary club of the college, overseeing the creation of the annual college magazine Jayzine and organizing the annual literary fest || shabd ||. The recruitment process for board members is rigorous and unique, and they also conduct debates and discussions on campus.",
+        "The college's literature club is known as The Editorial Board. They are responsible for producing the annual college magazine Jayzine, coordinating the annual literary fest || shabd ||, and organizing debates and discussions on campus. Board members are selected from various departments through a rigorous recruitment process."
+      ]
+    },
+    {
+      "tag": "boysWarden",
+      "patterns": [
+        "Who holds the position of Chief Warden at the boys' hostel?",
+        "Can you provide information about the Chief Warden of the boys' hostel?",
+        "Could you share details about the current Chief Warden of the boys' hostel?",
+        "Who is currently responsible for the role of Chief Warden at the boys' hostel?"
+      ],
+      "responses": [
+        "Dr. P. Mallu serves as the Chief Warden of SJCE boys' hostel.",
+        "Dr. P. Mallu holds the position of Chief Warden at SJCE boys' hostel.",
+        "The Chief Warden of SJCE boys' hostel is Dr. P. Mallu.",
+        "Dr. P. Mallu is the Chief Warden of SJCE boys' hostel."
+      ]
+    },
+    {
+      "tag": "girlsWarden",
+      "patterns": [
+        "Who currently holds the position of Chief Warden at the Girls' Hostel?",
+        "Can you identify the Chief Warden of the Girls' Hostel at SJCE?",
+        "Who is in charge as the Chief Warden of the Girls' Hostel?",
+        "Could you provide the name of the Chief Warden for the Girls' Hostel at SJCE?"
+      ],
+      "responses": [
+        "Ms. Ambika H S  is the Chief Warden of the SJCE Girls' Hostel.",
+        "The Chief Warden of the SJCE Girls' Hostel is Ms. Ambika H S .",
+        "Ms. Ambika H S serves as the Chief Warden of the SJCE Girls' Hostel.",
+        "Ms. Ambika H S  is currently holding the position of Chief Warden at the SJCE Girls' Hostel."
+      ]
+    },
+    {
+      "tag": "placementOfficer",
+      "patterns": [
+        "Who holds the position of the placement officer at the campus?",
+        "Can you provide information about the placement officer of the campus?",
+        "In the role of placement officer, who is responsible for placements at the campus?",
+        "Who is the individual currently serving as the placement officer of the campus?"
+      ],
+      "responses": [
+        "Dr. Pradeep M serves as the placement officer at SJCE/JSS.",
+        "The placement officer at SJCE/JSS is Dr. Pradeep M.",
+        "Dr. Pradeep M is the designated placement officer responsible for placements at SJCE/JSS.",
+        "The current placement officer at SJCE/JSS is Dr. Pradeep M."
+      ]
+    },
+    {
+      "tag": "libraryEstablished",
+      "patterns": [
+        "In what year was the Library and Information Centre established?",
+        "Could you provide the establishment year of the Library and Information Centre?",
+        "When was the library on the campus first established?",
+        "Can you share information about the founding year of the Library and Information Centre?"
+      ],
+      "responses": [
+        "The Library and Information Centre was set up in the year 1963.",
+        "The Library and Information Centre was founded in the year 1963.",
+        "The Library and Information Centre at the campus was established in the year 1963.",
+        "The Library and Information Centre was established on the campus in the year 1963."
+      ]
+    },
+    {
+      "tag": "librarian",
+      "patterns": [
+        "Who is the librarian of the Library and Information Centre?",
+        "Can you provide information about the librarian of the Library and Information Centre?",
+        "Who is the individual currently serving as the librarian of the Library and Information Centre?",
+        "Who is the librarian of the Library and Information Centre?",
+        "Who holds the position of the librarian at the campus?",
+        "Can you provide the name of the current librarian at the campus?",
+        "What is the name of the librarian overseeing the campus?",
+        "Who is currently designated as the librarian at the campus?"
+      ],
+      "responses": [
+        "Basappa, K.L. serves as the librarian at SJCE/JSS.",
+        "The current librarian at SJCE/JSS is Basappa, K.L.",
+        "Basappa, K.L. currently holds the position of librarian at SJCE/JSS.",
+        "The librarian for SJCE/JSS is Basappa, K.L."
+      ]
+    },
+    {
+      "tag": "mechHOD",
+      "patterns": [
+        "Who is the HOD of mechanical department",
+        "What is the name of the mechanical hod",
+        "who is the head of department of mechanical in jssstu",
+        "Name the head of department in mechanical branch",
+        "who is the hod of mechanical in jssstu ",
+        "Who currently holds the position of the Head of the Mechanical Department?",
+        "Can you identify the individual serving as the head of the Mechanical department?",
+        "What is the name of the person currently occupying the role of the Mechanical department head?",
+        "Could you provide information about the current Head of the Mechanical Department?"
+      ],
+      "responses": [
+        "Dr. R Ravishankar is the Head of the Mechanical Department.",
+        "The Head of the Mechanical Department is Dr. R Ravishankar.",
+        "Dr. R Ravishankar holds the position of the Head of the Mechanical Department.",
+        "The Head of the Mechanical Department is Dr. R Ravishankar."
+      ]
+    },
+    {
+      "tag": "civilHOD",
+      "patterns": [
+        "Who is the HOD of civil department",
+        "What is the name of the civil hod",
+        "who is the head of department of civil in jssstu",
+        "Name the head of department in civil branch",
+        "who is the hod of civil in jssstu ",
+        "Who currently holds the position of the Head of the Civil Department?",
+        "Can you identify the individual serving as the head of the Civil department?",
+        "What is the name of the person currently occupying the role of the Civil department head?",
+        "Could you provide information about the current Head of the Civil Department?"
+      ],
+      "responses": [
+        "Dr. Nagabhushan is the Head of the Civil department.",
+        "Dr. Nagabhushan serves as the Head of the Civil department.",
+        "The Head of the Civil department is Dr. Nagabhushan.",
+        "Dr. Nagabhushan is currently the Head of the Civil department."
+      ]
+    },
+    {
+      "tag": "envHOD",
+      "patterns": [
+        "Who is the HOD of environmental department",
+        "What is the name of the environmental hod",
+        "who is the head of department of environmental in jssstu",
+        "Name the head of department in environmental branch",
+        "who is the hod of environmental in jssstu ",
+        "Who currently holds the position of the Head of the Environmental Department?",
+        "Can you identify the individual serving as the head of the Environmental department?",
+        "What is the name of the person currently occupying the role of the Environmental department head?",
+        "Could you provide information about the current Head of the Environmental Department?"
+      ],
+      "responses": [
+        "Dr. SADASHIVA MURTHY BM serves as the Head of the Department (HOD) for the Environmental department.",
+        "The Head of the Environmental department is Dr. SADASHIVA MURTHY BM.",
+        "The Head of the Department (HOD) for the Environmental department is Dr. SADASHIVA MURTHY BM.",
+        "Dr. SADASHIVA MURTHY BM currently holds the position of Head of the Department (HOD) for the Environmental department."
+      ]
+    },
+    {
+      "tag": "mcaHOD",
+      "patterns": [
+        "Who is the HOD of MCA department",
+        "What is the name of the MCA hod",
+        "who is the head of department of MCA in jssstu",
+        "Name the head of department in MCA branch",
+        "who is the hod of MCA in jssstu ",
+        "Who currently holds the position of the Head of the MCA Department?",
+        "Can you identify the individual serving as the head of the MCA department?",
+        "What is the name of the person currently occupying the role of the MCA department head?",
+        "Could you provide information about the current Head of the MCA Department?"
+      ],
+      "responses": [
+        "Dr. Bharathi R K is the Head of the Department (HOD) for the MCA department.",
+        "The HOD of the MCA department is Dr. Bharathi R K.",
+        "Dr. Bharathi R K holds the position of Head of the Department (HOD) for the MCA department.",
+        "The current HOD of the MCA department is Dr. Bharathi R K."
+      ]
+    },
+    {
+      "tag": "csbsHOD",
+      "patterns": [
+        "Who is the HOD of CSBS department",
+        "What is the name of the CSBS hod",
+        "who is the head of department of CSBS in jssstu",
+        "Name the head of department in CSBS branch",
+        "who is the hod of CSBS in jssstu ",
+        "Who currently holds the position of the Head of the CSBS Department?",
+        "Can you identify the individual serving as the head of the CSBS department?",
+        "What is the name of the person currently occupying the role of the CSBS department head?",
+        "Could you provide information about the current Head of the CSBS Department?"
+      ],
+      "responses": [
+        "Dr. B S Mahanand holds the position of Head of the Department (HOD) for the CSBS department.",
+        "The current Head of the Department (HOD) for the CSBS department is Dr. B S Mahanand, who also oversees the CSBS department.",
+        "Dr. B S Mahanand is the designated Head of the Department (HOD) for the CSBS department, also overseeing the CSBS department.",
+        "The HOD for the CSBS department is Dr. B S Mahanand, who concurrently serves as the HOD for the CSBS department."
+      ]
+    },
+    {
+      "tag": "chemistryHOD",
+      "patterns": [
+        "Who is the HOD of chemistry department",
+        "What is the name of the chemistry hod",
+        "who is the head of department of chemistry in jssstu",
+        "Name the head of department in chemistry branch",
+        "who is the hod of chemistry in jssstu ",
+        "Who currently holds the position of the Head of the Chemistry Department?",
+        "Can you identify the individual serving as the head of the Chemistry department?",
+        "What is the name of the person currently occupying the role of the Chemistry department head?",
+        "Could you provide information about the current Head of the Chemistry Department?"
+      ],
+      "responses": [
+        "Dr. P Mallu is the Head of the Chemistry department.",
+        "The current Head of the Chemistry department is Dr. P Mallu.",
+        "Dr. P Mallu holds the position of Head of the Chemistry department.",
+        "The hod of the Chemistry department is Dr. P Mallu."
+      ]
+    },
+    {
+      "tag": "physicsHOD",
+      "patterns": [
+        "Who is the HOD of physics department",
+        "What is the name of the physics hod",
+        "who is the head of department of physics in jssstu",
+        "Name the head of department in physics branch",
+        "who is the hod of physics in jssstu ",
+        "Who currently holds the position of the Head of the Physics Department?",
+        "Can you identify the individual serving as the head of the Physics department?",
+        "What is the name of the person currently occupying the role of the Physics department head?",
+        "Could you provide information about the current Head of the Physics Department?"
+      ],
+      "responses": [
+        "Mr. Mahadeva Prasad P is the Head of the Physics Department.",
+        "The Head of the Physics Department is Mr. Mahadeva Prasad P.",
+        "Mr. Mahadeva Prasad P is currently serving as the Head of the Physics Department.",
+        "Mr. Mahadeva Prasad P is currently serving as the Head of the Physics Department."
+      ]
+    },
+    {
+      "tag": "CTMHOD",
+      "patterns": [
+        "Who is the HOD of CTM department",
+        "What is the name of the CTM hod",
+        "who is the head of department of CTM in jssstu",
+        "Name the head of department in CTM branch",
+        "who is the hod of CTM in jssstu ",
+        "Who currently holds the position of the Head of the CTM Department?",
+        "Can you identify the individual serving as the head of the CTM department?",
+        "What is the name of the person currently occupying the role of the CTM department head?",
+        "Could you provide information about the current Head of the CTM Department?"
+      ],
+      "responses": [
+        "Dr. Nagabhushana is the hod of the Construction Technology and Management department.",
+        "The Head of the Department (HOD) for Construction Technology and Management is Dr. Nagabhushana.",
+        "Dr. Nagabhushana serves as the hod of the Construction Technology and Management department.",
+        "Dr. Nagabhushana is currently the Head of the Department for Construction Technology and Management."
+      ]
+    },
+    {
+      "tag": "biotechHOD",
+      "patterns": [
+        "Who is the HOD of biotechnology department",
+        "What is the name of the biotechnology hod",
+        "who is the head of department of biotechnology in jssstu",
+        "Name the head of department in biotechnology branch",
+        "who is the hod of biotechnology in jssstu ",
+        "Who currently holds the position of the Head of the Biotechnology Department?",
+        "Can you identify the individual serving as the head of the Biotechnology department?",
+        "What is the name of the person currently occupying the role of the Biotechnology department head?",
+        "Could you provide information about the current Head of the Biotechnology Department?"
+      ],
+      "responses": [
+        "Dr. K.R. Sanjay is the Head of the Biotechnology department.",
+        "The current Head of the Biotechnology department is Dr. K.R. Sanjay.",
+        "Dr. K.R. Sanjay is currently the Head of the Biotechnology department.",
+        "The Head of the Biotechnology department is Dr. K.R. Sanjay."
+      ]
+    },
+    {
+      "tag": "IPHOD",
+      "patterns": [
+        "Who is the HOD of IP department",
+        "What is the name of the IP hod",
+        "who is the head of department of IP in jssstu",
+        "Name the head of department in IP branch",
+        "who is the hod of IP in jssstu ",
+        "Who currently holds the position of the Head of the IP Department?",
+        "Can you identify the individual serving as the head of the IP department?",
+        "What is the name of the person currently occupying the role of the IP department head?",
+        "Could you provide information about the current Head of the IP Department?",
+        "Who currently holds the position of Head of the Department (HOD) for Industrial and Production?",
+        "Can you provide information about the current HOD of the Industrial and Production department?",
+        "Who is in charge of the Industrial and Production department as the Head of the Department?",
+        "Could you share the name of the HOD for the Industrial and Production department?"
+      ],
+      "responses": [
+        "Dr. Savitha M is the HOD of the Industrial and Production department.",
+        "The HOD of the Industrial and Production department is Dr. Savitha M.",
+        "Dr. Savitha M currently serves as the Head of the Department (HOD) for Industrial and Production.",
+        "Dr. Savitha M is the current HOD of the Industrial and Production department."
+      ]
+    },
+    {
+      "tag": "EEEHOD",
+      "patterns": [
+        "Who is the HOD of EEE department",
+        "What is the name of the EEE hod",
+        "who is the head of department of EEE in jssstu",
+        "Name the head of department in EEE branch",
+        "who is the hod of EEE in jssstu ",
+        "Who currently holds the position of the Head of the EEE Department?",
+        "Can you identify the individual serving as the head of the EEE department?",
+        "What is the name of the person currently occupying the role of the EEE department head?",
+        "Could you provide information about the current Head of the EEE Department?",
+        "Who currently holds the position of Head of the Electrical and Electronics department?",
+        "Can you provide information about the current Head of the Electrical and Electronics department?",
+        "What is the name of the person leading the Electrical and Electronics department as the Head?",
+        "Who is in charge of the Electrical and Electronics department as the Head?"
+      ],
+      "responses": [
+        "Dr. Sidram M H serves as the Head of the Electrical and Electronics department.",
+        "The current Head of the Electrical and Electronics department is Dr. Sidram M H.",
+        "Dr. Sidram M H is the Head of the Electrical and Electronics department.",
+        "The Head of the Electrical and Electronics department is Dr. Sidram M H."
+      ]
+    },
+    {
+      "tag": "EIHOD",
+      "patterns": [
+        "Who is the HOD of EI department",
+        "What is the name of the EI hod",
+        "who is the head of department of EI in jssstu",
+        "Name the head of department in EI branch",
+        "who is the hod of EI in jssstu ",
+        "Who currently holds the position of the Head of the EI Department?",
+        "Can you identify the individual serving as the head of the EI department?",
+        "What is the name of the person currently occupying the role of the EI department head?",
+        "Could you provide information about the current Head of the EI Department?",
+        "Who currently holds the position of Head of the Electronics and Instrumentation department?",
+        "Can you provide information about the current Head of the Electronics and Instrumentation department?",
+        "What is the name of the person leading the Electronics and Instrumentation department as the Head?",
+        "Who is in charge of the Electronics and Instrumentation department as the Head?"
+      ],
+      "responses": [
+        "Dr. K Umarani is the Head of the Department (HOD) for the Electronics and Instrumentation department.",
+        "Dr. K Umarani serves as the Head of the Department (HOD) for Electronics and Instrumentation.",
+        "The current Head of the Department (HOD) for Electronics and Instrumentation is Dr. K Umarani.",
+        "Dr. K Umarani is the designated Head of the Department (HOD) for Electronics and Instrumentation."
+      ]
+    },
+    {
+      "tag": "MBAHOD",
+      "patterns": [
+        "Who is the HOD of MBA department",
+        "What is the name of the MBA hod",
+        "who is the head of department of MBA in jssstu",
+        "Name the head of department in MBA branch",
+        "who is the hod of MBA in jssstu ",
+        "Who currently holds the position of the Head of the MBA Department?",
+        "Can you identify the individual serving as the head of the MBA department?",
+        "What is the name of the person currently occupying the role of the MBA department head?",
+        "Could you provide information about the current Head of the MBA Department?"
+      ],
+      "responses": [
+        "Dr. Swaroop Simha serves as the Head of the MBA department.",
+        "The current Head of the MBA department is Dr. Swaroop Simha.",
+        "Dr. Swaroop Simha is the designated Head of the MBA department.",
+        "The Head of the MBA department is Dr. Swaroop Simha."
+      ]
+    },
+    {
+      "tag": "ECHOD",
+      "patterns": [
+        "Who is the HOD of EC department",
+        "What is the name of the EC hod",
+        "who is the head of department of EC in jssstu",
+        "Name the head of department in EC branch",
+        "who is the hod of EC in jssstu ",
+        "Who currently holds the position of the Head of the EC Department?",
+        "Can you identify the individual serving as the head of the EC department?",
+        "What is the name of the person currently occupying the role of the EC department head?",
+        "Could you provide information about the current Head of the EC Department?",
+        "Who currently holds the position of Head of the Electronics and Communication department?",
+        "Can you provide information about the current Head of the Electronics and Communication department?",
+        "What is the name of the person leading the Electronics and Communication department as the Head?",
+        "Who is in charge of the Electronics and Communication department as the Head?"
+      ],
+      "responses": [
+        "Dr. U B Mahadevaswamy is the hod of the Electronics and Communication department.",
+        "The hod of the Electronics and Communication department is Dr. U B Mahadevaswamy.",
+        "Dr. U B Mahadevaswamy serves as the hod of the Electronics and Communication department.",
+        "The head of the Electronics and Communication department is Dr. U B Mahadevaswamy."
+      ]
+    },
+    {
+      "tag": "coursesOffered",
+      "patterns": [
+        "Which courses are available at the institution?",
+        "Can you provide information about the types of courses offered?",
+        "What educational opportunities are available at the institution?",
+        "Could you list the different types of courses offered at the institution?"
+      ],
+      "responses": [
+        "The institution offers a range of courses, including Undergraduate (UG), Postgraduate (PG), and research opportunities.",
+        "Courses at the institution encompass Undergraduate (UG), Postgraduate (PG), and research opportunities.",
+        "The institution provides educational opportunities through Undergraduate (UG), Postgraduate (PG), and research programs.",
+        "The courses offered at the institution include Undergraduate (UG), Postgraduate (PG), and opportunities for research."
+      ]
+    },
+    {
+      "tag": "antiRagging",
+      "patterns": [
+        "Is there an anti-ragging committee at the institution?",
+        "What is the name of the anti-ragging committee at the institution?",
+        "Could you provide information about the anti-ragging committee at the institution?",
+        "Is there a committee to prevent ragging at the institution?",
+        "What measures are in place to prevent ragging on the campus?",
+        "Can you elaborate on the steps taken to prevent ragging within the campus?",
+        "What initiatives are in place to curb ragging in the college?",
+        "How does the campus address the issue of ragging, and what measures are taken?"
+      ],
+      "responses": [
+        "The campus has established an anti-ragging committee and anti-ragging squads, comprising the Principal, Vice principal, senior professors, administrative staff, Warden, resident wardens, assistant wardens, and the Student Welfare Officer (SWO). These measures aim to prevent any harassment of freshmen in the college premises or hostels.",
+        "To prevent any form of ragging, the campus has instituted an anti-ragging committee and anti-ragging squads, which include the Principal, Vice principal, senior professors, administrative staff, Warden, resident wardens, assistant wardens, and the Student Welfare Officer (SWO). This comprehensive approach ensures the safety of freshmen in both college premises and hostels.",
+        "The college has implemented a robust system against ragging, featuring an anti-ragging committee and anti-ragging squads. Comprising key members such as the Principal, Vice principal, senior professors, administrative staff, Warden, resident wardens, assistant wardens, and the Student Welfare Officer (SWO), these measures are designed to prevent any harassment of newcomers within the college premises or hostels.",
+        "To address the issue of ragging, the campus has established an anti-ragging committee and anti-ragging squads. These include the Principal, Vice principal, senior professors, administrative staff, Warden, resident wardens, assistant wardens, and the Student Welfare Officer (SWO). The purpose is to ensure that newcomers are not subjected to any form of harassment, be it within the college premises or hostels."
+      ]
+    }
+  ]
+}
