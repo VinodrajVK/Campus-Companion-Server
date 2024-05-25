@@ -84,7 +84,8 @@
         "who is the HOD of CS department",
         "Who is the CS HOD",
         "Name of CS HOD",
-        "who is the HOD of computer science"
+        "who is the HOD of computer science",
+        "cs hod"
       ],
       "responses": [
         "HOD of CS dept is Dr. Srinath.S",
@@ -116,10 +117,7 @@
         "where is it located",
         "what is the location of the college"
       ],
-      "responses": [
-        "Manasagangotri Layout,Mysuru",
-        "College is located in University of Mysore Campus,Manasagangotri,Mysuru"
-      ]
+      "responses": ["https://maps.app.goo.gl/vfT9zbDQmpg8EZ5X6"]
     },
 
     {
@@ -130,7 +128,7 @@
         "Give me the college Website",
         "website of the college"
       ],
-      "responses": ["https://jssstuniv.in/#/"]
+      "responses": ["https://jssstuniv.in/"]
     },
 
     {
@@ -1044,6 +1042,7 @@
     {
       "tag": "csPlacement",
       "patterns": [
+        "students placed in cs",
         "What is the number of students in CSE branch who got placed?",
         "How many students got placed in CSE branch?",
         "How many students got placed in Computer Science and Engineering branch?",
@@ -1057,6 +1056,7 @@
     {
       "tag": "ecePlacement",
       "patterns": [
+        "students placed in ec",
         "What is the number of students in ECE branch who got placed?",
         "How many students got placed in ECE branch?",
         "How many students got placed in Electronics and Communication Engineering branch?",
@@ -1070,6 +1070,7 @@
     {
       "tag": "isePlacement",
       "patterns": [
+        "students placed in is",
         "What is the number of students in ISE branch who got placed?",
         "How many students got placed in ISE branch?",
         "How many students got placed in Information Science and Engineering branch?",
@@ -1083,8 +1084,9 @@
     {
       "tag": "mechPlacement",
       "patterns": [
-        "What is the number of students in ME branch who got placed?",
-        "How many students got placed in ME branch?",
+        "students placed in mech",
+        "What is the number of students in MECH branch who got placed?",
+        "How many students got placed in MECH branch?",
         "How many students got placed in Mechanical Engineering branch?",
         "What is the number of students in Mechanical Engineering branch who got placed?"
       ],
@@ -1096,8 +1098,9 @@
     {
       "tag": "civilPlacement",
       "patterns": [
-        "What is the number of students in CV branch who got placed?",
-        "How many students got placed in CV branch?",
+        "students placed in civil",
+        "What is the number of students in Civil branch who got placed?",
+        "How many students got placed in Civil branch?",
         "How many students got placed in Civil Engineering branch?",
         "What is the number of students in Civil Engineering branch who got placed?"
       ],
@@ -1109,6 +1112,7 @@
     {
       "tag": "eeePlacement",
       "patterns": [
+        "students placed in eee",
         "What is the number of students in EEE branch who got placed?",
         "How many students got placed in EEE branch?",
         "How many students got placed in Electrical and Electronics Engineering branch?",
@@ -1122,6 +1126,7 @@
     {
       "tag": "eiPlacement",
       "patterns": [
+        "students placed in ei",
         "What is the number of students in EI branch who got placed?",
         "How many students got placed in EI branch?",
         "How many students got placed in Electronics and Instrumentation Engineering branch?",
@@ -1178,6 +1183,7 @@
     {
       "tag": "cshighestPackage",
       "patterns": [
+        "highest package in cs",
         "What is the highest package offered in CSE branch?",
         "What is the highest package offered in Computer Science and Engineering branch?",
         "What is the highest package offered in Computer Science branch?",

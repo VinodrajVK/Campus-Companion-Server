@@ -1,6 +1,7 @@
 import json
 import difflib
 import random
+from datetime import datetime
 import logging
 from flask import Flask, request, jsonify
 
@@ -29,7 +30,7 @@ with open(INTENTS_JSON_FILE, "r") as file:
 
 def get_intent(user_input):
     matches = difflib.get_close_matches(user_input.lower(), [
-        pattern for intent in intents_data["intents"] for pattern in intent["patterns"]], n=1, cutoff=0.6)
+        pattern.lower() for intent in intents_data["intents"] for pattern in intent["patterns"]], n=3, cutoff=0.4)
 
     if matches:
         matched_intent = next(
@@ -57,7 +58,6 @@ def chatbot():
     if user_input.lower() == 'exit':
         logger.info("User requested exit.")
         return jsonify({"response": "Goodbye!"})
-
     matched_intent = get_intent(user_input)
 
     if matched_intent:
@@ -71,4 +71,4 @@ def chatbot():
 
 if __name__ == '__main__':
     logger.info("Bot: Hi! How can I assist you today?")
-    app.run(host='0.0.0.0', port=5000)
+    app.run("0.0.0.0", port=5000, debug=True)

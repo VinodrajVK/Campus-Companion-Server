@@ -3,7 +3,7 @@ import random
 from nltk.tokenize import word_tokenize
 
 
-def generate_sentence_variations(sentence, num_variations=5):
+def generate_sentence_variations(sentence, num_variations=8):
     variations = []
 
     # Tokenize the sentence into words
